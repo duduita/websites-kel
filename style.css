@@ -38,34 +38,25 @@ header[role="banner"] {
 .navbar{
     background-color: transparent !important;
 }
-.navbar .navbar-brand{
-    color : #FFF;
-    font-weight: bolder;
-    font-size: 1.3em;
-}
+
 .navbar .navbar-nav{
     margin : 0 auto;
 }
 
+.nav-item:hover {
+  transform: scale(1.1);
+  background-color: #E70083;
 
-.navbar .dropdown-menu{
-    background-color: rgba(0,0,0,0.3);
 }
-.dropdown-item:hover{
-    background-color: rgba(0,0,0,0.3);
-}
-.navbar form button{
-    background-color: #ea00b1;
-    color:#FFF;
-    border:0;
-}
-.navbar form button:hover{
-    background-color: #000;
-}
-
-
 video {
   /* override other styles to make responsive */
   width: 100%    !important;
   height: auto   !important;
+} 
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  background-color: transparent;
 }
