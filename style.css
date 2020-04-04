@@ -52,11 +52,13 @@ video {
   /* override other styles to make responsive */
   width: 100%    !important;
   height: auto   !important;
+  overflow: hidden; 
 } 
 
 .logo {
-  width: 300px;
+  width: 300px; 
   height: auto;
   margin: 5px;
   background-color: transparent;
+  overflow: 
 }
