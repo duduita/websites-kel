@@ -67,3 +67,9 @@ h1 {
   font-family: Segoe Script;
   color: #e70083;
 }
+
+#gmaps {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
